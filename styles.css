@@ -26,6 +26,37 @@ section {
     margin-bottom: 30px;
 }
 
+.featured-plants {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.plant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.plant-card h3 {
+    color: #2c5530;
+    margin: 10px 0;
+}
+
+.difficulty {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.easy { background-color: #90EE90; }
+.medium { background-color: #FFD700; }
+.hard { background-color: #FFA07A; }
+
 footer {
     text-align: center;
     color: #666;
